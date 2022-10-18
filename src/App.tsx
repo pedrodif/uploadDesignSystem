@@ -1,10 +1,17 @@
+// Packages
 import { Envelope, Lock } from 'phosphor-react';
+
+// Components
 import { Button } from './components/Button';
 import { Checkbox } from './components/Checkbox';
 import { Heading } from './components/Heading';
 import { Text } from './components/Text';
 import { TextInput } from './components/TextInput';
+
+// Assets
 import { Logo } from './Logo';
+
+// Styles
 import './styles/global.css';
 
 export function App() {
@@ -87,9 +94,7 @@ export function App() {
             <a href="#" className="text-gray-400 underline hover:text-gray-200 ">Não possui conta? Crie uma agora</a>
           </Text>
         </footer>
-
       </form>
-
     </div>
   )
 }
